@@ -1,0 +1,9 @@
+{
+  "name": "Dashboard-extension",
+  "description": "Extension for browser.",
+  "scripts": {
+  },
+  "dependencies": {
+  },
+  "devDependencies": {}
+}
