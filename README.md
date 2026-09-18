@@ -70,5 +70,5 @@ This project helped me practice:
 
 **Abhishek Vetal**
 
-- GitHub: [abhivetal](https://github.com/abhivetal)
+- GitHub: [abhishek-vetal](https://github.com/abhishek-vetal)
 - Portfolio: [abhishek-vetal.vercel.app](https://abhishek-vetal.vercel.app/)
