@@ -1,32 +1,32 @@
 # Browser Dashboard Extension
 
-A browser dashboard extension that provides useful information at a glance, including the current time, weather conditions, Bitcoin prices, and a dynamic background.
+A browser dashboard extension that displays useful information such as the current time, weather, Bitcoin prices, and dynamic background images.
 
-The dashboard combines data from multiple external APIs to create a personalized new-tab experience.
+The project integrates multiple external APIs to provide real-time data in a simple browser dashboard.
 
 ## Live Demo
 
-Add the live demo link here.
+[View Live Demo](https://browser-extt.netlify.app/)
 
 ## Features
 
-- Displays the current time
-- Shows current weather information
-- Displays the current Bitcoin price in INR
-- Shows Bitcoin's 24-hour high and low prices
-- Uses dynamic background images
-- Combines data from multiple external APIs
-- Designed as a browser dashboard/new-tab experience
+- Display the current time
+- Show current weather information
+- Display the current Bitcoin price in INR
+- Show Bitcoin's 24-hour high and low prices
+- Use dynamic background images
+- Display a clean browser dashboard interface
+- Integrate multiple external APIs
 
-## APIs Used
+## API Integrations
 
 ### OpenWeather API
 
-Used to retrieve weather information, including the current temperature and weather conditions.
+Used to retrieve weather information and display the current weather conditions.
 
-### CoinGecko API v3
+### CoinGecko API
 
-Used to retrieve Bitcoin market data:
+Used to retrieve Bitcoin market data, including:
 
 - Current Bitcoin price in INR
 - 24-hour high price
@@ -34,62 +34,41 @@ Used to retrieve Bitcoin market data:
 
 ### Unsplash API
 
-Used to retrieve images for the dashboard background.
+Used to retrieve images that are displayed as dynamic browser backgrounds.
 
 ## Tech Stack
 
 - HTML5
 - CSS3
-- Vanilla JavaScript
+- JavaScript
 - OpenWeather API
-- CoinGecko API v3
+- CoinGecko API
 - Unsplash API
 
 ## How It Works
 
-The extension fetches information from multiple APIs and dynamically updates the dashboard.
+The extension fetches data from multiple APIs and combines the results into a single browser dashboard.
 
-1. Weather data is retrieved from the OpenWeather API.
-2. Bitcoin market data is retrieved from CoinGecko.
-3. A background image is retrieved from Unsplash.
-4. JavaScript processes the API responses and updates the dashboard.
-5. The current time is displayed dynamically on the page.
-
-## Bitcoin Data
-
-The Bitcoin section displays three different values:
-
-- **Current Price** — Current Bitcoin price in INR
-- **24h High** — Highest Bitcoin price recorded during the last 24 hours
-- **24h Low** — Lowest Bitcoin price recorded during the last 24 hours
+- Weather data is retrieved from OpenWeather.
+- Bitcoin market data is retrieved from CoinGecko.
+- Background images are retrieved from Unsplash.
+- JavaScript processes the API responses and updates the dashboard dynamically.
 
 ## What I Practiced
 
 This project helped me practice:
 
 - Working with multiple external APIs
-- Fetching asynchronous data using JavaScript
-- Handling API responses
+- Fetching and handling asynchronous data
+- Working with JSON API responses
 - Updating the DOM dynamically
-- Working with cryptocurrency market data
-- Integrating weather APIs
-- Using external image APIs
-- Building browser-based dashboard interfaces
-
-## Project Highlights
-
-- Multi-API integration
-- Dynamic data rendering
-- Real-time-style dashboard information
-- Dynamic background images
-- Browser extension development
-- Vanilla JavaScript implementation
+- Integrating third-party services
+- Building browser-based user interfaces
+- Handling real-time data from external sources
 
 ## Author
 
 **Abhishek Vetal**
 
-Full Stack Web Developer
-
-- GitHub: abhivetal
-- Portfolio: abhishek-vetal.vercel.app
+- GitHub: [abhivetal](https://github.com/abhivetal)
+- Portfolio: [abhishek-vetal.vercel.app](https://abhishek-vetal.vercel.app/)
